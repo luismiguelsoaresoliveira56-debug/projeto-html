@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciclopédia Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Enciclopédia Rick and Morty</h1>
+        <p>Consumindo uma API pública com JavaScript</p>
+
+        
+        <div class="card">
+            <h2>Buscar Personagem</h2>
+
+            <div class="grupo">
+                <input
+                    type="number"
+                    id="input-personagem"
+                    placeholder="Digite o ID do personagem">
+                <button onclick="buscarPersonagem()">
+                    Buscar
+                </button>
+            </div>
+
+            <div id="resultado-personagem" class="resultado"></div>
+        </div>
+
+        
+        <div class="card">
+            <h2>Buscar Episódio</h2>
+
+            <div class="grupo">
+                <input
+                    type="number"
+                    id="input-episodio"
+                    placeholder="Digite o ID do episódio">
+                <button onclick="buscarEpisodio()">
+                    Buscar
+                </button>
+            </div>
+
+            <div id="resultado-episodio" class="resultado"></div>
+        </div>
+
+        
+        <div class="card">
+            <h2>Buscar Localização</h2>
+
+            <div class="grupo">
+                <input
+                    type="number"
+                    id="input-localizacao"
+                    placeholder="Digite o ID da localização">
+                <button onclick="buscarLocalizacao()">
+                    
+                </button>
+            </div>
+
+            <div id="resultado-localizacao" class="resultado"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
